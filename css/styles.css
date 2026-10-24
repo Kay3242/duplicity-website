@@ -168,7 +168,8 @@ h2 em { color: #cdb9d0; font-weight: 400; font-style: normal; }
 .demo__inner { padding: clamp(130px, 16vw, 230px) 24px; }
 .demo h2 { font-size: clamp(47px, 6.9vw, 108px); }
 .demo p:not(.eyebrow) { margin: 32px auto; color: #c9bfcd; line-height: 1.8; }
-.demo__download { display: inline-flex; gap: 20px; align-items: center; justify-content: center; min-height: 54px; padding: 17px 26px; border: 1px solid rgba(214,198,220,.6); text-transform: uppercase; font-size: 11px; font-weight: 700; letter-spacing: .18em; color: #ede4ef; background: rgba(214,198,220,.035); transition: background .2s ease, border-color .2s ease, color .2s ease; }
+.demo__downloads { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 14px; margin-top: 34px; }
+.demo__download { display: inline-flex; gap: 20px; align-items: center; justify-content: center; min-width: 185px; min-height: 54px; padding: 17px 26px; border: 1px solid rgba(214,198,220,.6); text-transform: uppercase; font-size: 11px; font-weight: 700; letter-spacing: .18em; color: #ede4ef; background: rgba(214,198,220,.035); transition: background .2s ease, border-color .2s ease, color .2s ease; }
 .demo__download span { font-size: 18px; line-height: 1; transition: transform .2s ease; }
 .demo__download:hover { color: #111018; background: #ede4ef; border-color: #ede4ef; }
 .demo__download:hover span { transform: translate(3px, -3px); }
@@ -238,4 +239,9 @@ h2 em { color: #cdb9d0; font-weight: 400; font-style: normal; }
   .intro-veil { display: none; }
   .glitch-word.is-glitching { text-shadow: none; animation: none; }
   .glitch-word.is-glitching::before, .glitch-word.is-glitching::after { display: none; }
+}
+
+@media (max-width: 480px) {
+  .demo__downloads { flex-direction: column; align-items: stretch; max-width: 320px; margin-left: auto; margin-right: auto; }
+  .demo__download { width: 100%; }
 }
