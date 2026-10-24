@@ -1,11 +1,13 @@
 Folder PATH listing for volume Windows
 Volume serial number is 00D0-7C7C
 C:.
-|   folder_structure.txt
 |   index.html
+|   structure.txt
 |   
 +---assets
 |   |   duplicity_logo.png
+|   |   QUESTIONING.png
+|   |   quintus file.png
 |   |   
 |   +---backgrounds
 |   |       bureau office.png
