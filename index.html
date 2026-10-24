@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111018">
+  <meta name="description" content="Duplicity — a psychological mystery visual novel about the ordinary and the unknown.">
+  <title>Duplicity — Official Website</title>
+  <link rel="preload" as="image" href="assets/backgrounds/starting_menu.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- The intro veil and all section contents remain usable if animation libraries fail. -->
+  <div class="intro-veil" aria-hidden="true"><span>DUPLICITY <i></i></span></div>
+
+  <header class="site-header" id="header">
+    <a class="wordmark" href="#home" aria-label="Duplicity, back to top">DUPLICITY<span class="wordmark__dot">.</span></a>
+    <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+      <a href="#story">Story</a>
+      <a href="#character">Character</a>
+      <a href="#gameplay">Gameplay</a>
+      <a class="nav-pill" href="#demo">Demo</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- STAGE 1 / The image should already be in assets/backgrounds. -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__photo" aria-hidden="true"></div>
+      <div class="hero__vignette" aria-hidden="true"></div>
+      <div class="hero__lines" aria-hidden="true"></div>
+      <div class="hero__content">
+        <p class="eyebrow hero__eyebrow">A psychological mystery visual novel</p>
+        <h1 id="hero-title" class="hero__title">
+          <img src="assets/duplicity_logo.png" alt="DUPLICITY">
+        </h1>
+        <div class="hero__rule" aria-hidden="true"></div>
+        <p class="hero__tagline">Nothing is out of place.</p>
+        <a class="text-link hero__cta" href="#story">Enter the story <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="hero__index" aria-hidden="true">FILE 001 <span>/</span> INTRODUCTION</div>
+      <a class="scroll-cue" href="#story"><span>Scroll to explore</span><i aria-hidden="true"></i></a>
+    </section>
+
+    <!-- STAGE 2 / ScrollTrigger pins this scene and gradually uncovers the next image. -->
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="story__stage">
+        <div class="story__base" aria-hidden="true"><span>EVERYDAY<br>IS THE SAME.</span></div>
+        <div class="story__picture" aria-hidden="true">
+          <img src="assets/backgrounds/bureau office.png" alt="" loading="lazy">
+        </div>
+        <div class="story__shade" aria-hidden="true"></div>
+        <div class="story__content">
+          <p class="eyebrow story__kicker">The story</p>
+          <h2 id="story-title">A perfectly<br><em>ordinary</em> life.</h2>
+          <p>Every day has its routines. Every stranger has a story. And some things are better left unquestioned.</p>
+        </div>
+        <span class="story__serial" aria-hidden="true">DUPLICITY / 001</span>
+      </div>
+    </section>
+
+    <!-- STAGE 3 / Printed personnel dossier inspired by archival database records. -->
+    <section class="character" id="character" aria-labelledby="character-title">
+      <div class="section-inner character__grid">
+        <div class="character__copy reveal">
+          <p class="eyebrow">Personnel archive</p>
+          <h2 id="character-title">Meet<br><em>Emmet.</em></h2>
+          <div class="thin-rule" aria-hidden="true"></div>
+          <p>Another ordinary day at work. Another face across the counter. How much can you really know about a person?</p>
+          <span class="file-tag">SUBJECT RECORD <span>—</span> E. CLARKSON</span>
+        </div>
+
+        <div class="dossier reveal" aria-label="Emmet Clarkson personnel dossier">
+          <div class="dossier__under-sheet" aria-hidden="true"><span>INDEX / SUBJECT 001</span></div>
+          <div class="dossier__folder" aria-hidden="true"></div>
+          <article class="dossier__paper">
+            <div class="dossier__upperline">
+              <span>BUREAU // PERSONNEL ARCHIVE</span>
+              <span>REF : EC-001</span>
+            </div>
+            <header class="dossier__heading">
+              <div>
+                <p class="dossier__section-label">CLASSIFIED PERSONNEL ENTRY</p>
+                <h3>PERSONNEL FILE</h3>
+              </div>
+              <div class="dossier__file-number" aria-hidden="true">NO. 001 / A</div>
+            </header>
+            <div class="dossier__body">
+              <figure class="dossier__photo">
+                <div class="dossier__portrait-wrap">
+                  <img src="assets/characters/EMMET QUINTUS CLARKSON/OFFICEWEAR/NO BG/EMMET QUINTUS CLARKSON_NEUTRAL_NO BG.png" alt="Portrait of Emmet Clarkson" loading="lazy">
+                </div>
+                <figcaption>SUBJECT / E.C.</figcaption>
+                <span class="dossier__photo-note" aria-hidden="true">01</span>
+              </figure>
+              <div class="dossier__records">
+                <div class="dossier__records-top"><span>RECORD ENTRY</span><span>DATABASE / 001</span></div>
+                <dl class="dossier__table">
+                  <div><dt>FULL NAME</dt><dd>Emmet Clarkson</dd></div>
+                  <div><dt>WORKPLACE</dt><dd>The Bureau</dd></div>
+                  <div><dt>STATION</dt><dd>Inspection booth</dd></div>
+                  <div><dt>ASSIGNMENT</dt><dd>Identity verification</dd></div>
+                  <div><dt>FILE STATUS</dt><dd><span class="dossier__status">ACTIVE</span> / UNDER REVIEW</dd></div>
+                  <div><dt>NOTES</dt><dd><span class="dossier__redacted" aria-label="Information redacted">████ ███████ ██</span></dd></div>
+                </dl>
+                <div class="dossier__checksum"><span>ENTRY CHECK // 08-01</span><span>FILE COPIED FOR REVIEW</span></div>
+              </div>
+            </div>
+            <div class="dossier__footer">
+              <div>
+                <span class="dossier__tiny">SYSTEM NOTE / 01</span>
+                <p>All records are presumed accurate until otherwise indicated.</p>
+              </div>
+              <div class="dossier__barcode" aria-hidden="true"></div>
+            </div>
+            <span class="dossier__stamp" aria-hidden="true">PENDING<br>REVIEW</span>
+            <span class="dossier__corner" aria-hidden="true">ARCHIVE COPY // DO NOT DISCARD</span>
+          </article>
+          <div class="dossier__external-caption" aria-hidden="true">DOCUMENT 001 &nbsp; / &nbsp; EMMET CLARKSON</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gameplay" id="gameplay" aria-labelledby="gameplay-title">
+      <div class="section-inner">
+        <div class="gameplay__heading reveal">
+          <div>
+            <p class="eyebrow">Gameplay</p>
+            <h2 id="gameplay-title">Look closer.</h2>
+          </div>
+          <p>Question visitors. Examine identification. Search records. Decide who you can trust.</p>
+        </div>
+        <div class="gameplay__image reveal">
+          <img src="assets/backgrounds/emmet's booth.png" alt="The inspection booth, one of Duplicity's game locations" loading="lazy">
+          <span class="gameplay__frame gameplay__frame--tl" aria-hidden="true"></span>
+          <span class="gameplay__frame gameplay__frame--br" aria-hidden="true"></span>
+          <span class="gameplay__caption">SCREEN 01 / INSPECTION BOOTH</span>
+        </div>
+        <div class="gameplay__steps reveal" aria-label="Gameplay features">
+          <span><b>01</b> Inspect</span><span><b>02</b> Question</span><span><b>03</b> Decide</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo" id="demo" aria-labelledby="demo-title">
+      <div class="demo__inner reveal">
+        <p class="eyebrow">Play</p>
+        <h2 id="demo-title">Enter the <span class="glitch-word" id="glitch-word" data-text="ordinary">ordinary</span>.</h2>
+        <p class="demo__subline" aria-hidden="true">SIGNAL INTEGRITY : <span id="signal-status">STABLE</span></p>
+        <p>Demo availability and exhibition details will be added here.</p>
+        <!-- Replace this note with a real download link when the game build is ready. -->
+        <span class="demo__coming-soon">Download link coming soon</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#home" class="site-footer__logo">DUPLICITY</a>
+    <span>An original visual novel</span>
+    <a href="#home" class="footer-top">Back to top ↑</a>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="js/main.js?v=2.1" defer></script>
+</body>
+</html>

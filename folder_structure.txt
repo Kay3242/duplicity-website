@@ -1,0 +1,184 @@
+Folder PATH listing for volume Windows
+Volume serial number is 00D0-7C7C
+C:.
+|   folder_structure.txt
+|   index.html
+|   
++---assets
+|   |   duplicity_logo.png
+|   |   
+|   +---backgrounds
+|   |       bureau office.png
+|   |       emmet's bedroom.png
+|   |       emmet's booth.png
+|   |       emmet's house.png
+|   |       starting_menu.png
+|   |       train.webp
+|   |       
+|   +---characters
+|   |   +---AMELIA PARSON
+|   |   |       AMELIA PARSON_DEFENSIVE.png
+|   |   |       AMELIA PARSON_DISTRESSED.png
+|   |   |       AMELIA PARSON_hover state.png
+|   |   |       AMELIA PARSON_NERVOUS.png
+|   |   |       AMELIA PARSON_NEUTRAL.png
+|   |   |       AMELIA PARSON_SMILING.png
+|   |   |       
+|   |   +---CHARLOTTE SALLOW
+|   |   |       CHARLOTTE SALLOW_NEUTRAL.png
+|   |   |       
+|   |   +---CHELSEY GALLOWAY
+|   |   |       CHELSEY GALLOWAY_DEFENSIVE.png
+|   |   |       CHELSEY GALLOWAY_DISTRESSED.png
+|   |   |       CHELSEY GALLOWAY_NERVOUS.png
+|   |   |       CHELSEY GALLOWAY_NEUTRAL.png
+|   |   |       CHELSEY GALLOWAY_SMILING.png
+|   |   |       
+|   |   +---EMMET CLARKSON
+|   |   |       EMMET CLARKSON_hover state.png
+|   |   |       EMMET CLARKSON_NEUTRAL.png
+|   |   |       EMMET CLARKSON_SMILING.png
+|   |   |       
+|   |   +---EMMET QUINTUS CLARKSON
+|   |   |   +---CASUAL
+|   |   |   |       EMMET QUINTUS CLARKSON_CONFUSED.png
+|   |   |   |       EMMET QUINTUS CLARKSON_HAPPY.png
+|   |   |   |       EMMET QUINTUS CLARKSON_NEUTRAL.png
+|   |   |   |       EMMET QUINTUS CLARKSON_SAD.png
+|   |   |   |       EMMET QUINTUS CLARKSON_SHOCKED.png
+|   |   |   |       
+|   |   |   \---OFFICEWEAR
+|   |   |       |   EMMET QUINTUS CLARKSON_CONFUSED.png
+|   |   |       |   EMMET QUINTUS CLARKSON_HAPPY.png
+|   |   |       |   EMMET QUINTUS CLARKSON_NEUTRAL.png
+|   |   |       |   EMMET QUINTUS CLARKSON_SAD.png
+|   |   |       |   EMMET QUINTUS CLARKSON_SHOCKED.png
+|   |   |       |   
+|   |   |       \---NO BG
+|   |   |               EMMET QUINTUS CLARKSON_CONFUSED_NO BG.png
+|   |   |               EMMET QUINTUS CLARKSON_HAPPY_NO BG.png
+|   |   |               EMMET QUINTUS CLARKSON_NEUTRAL_NO BG.png
+|   |   |               EMMET QUINTUS CLARKSON_SAD_NO BG.png
+|   |   |               EMMET QUINTUS CLARKSON_SHOCKED_NO BG.png
+|   |   |               
+|   |   +---FEDRIC JEMISON
+|   |   |       FREDRIC JEMISON_DEFENSIVE.png
+|   |   |       FREDRIC JEMISON_DISTRESSED.png
+|   |   |       FREDRIC JEMISON_NERVOUS.png
+|   |   |       FREDRIC JEMISON_NEUTRAL.png
+|   |   |       FREDRIC JEMISON_NEUTRAL_hover.png
+|   |   |       FREDRIC JEMISON_SMILING.png
+|   |   |       
+|   |   +---ISAAC LAYTON
+|   |   |       ISAAC LAYTON_DEFENSIVE.png
+|   |   |       ISAAC LAYTON_DISTRESSED.png
+|   |   |       ISAAC LAYTON_FLIRTATIOUS.png
+|   |   |       ISAAC LAYTON_hover state.png
+|   |   |       ISAAC LAYTON_NERVOUS.png
+|   |   |       ISAAC LAYTON_NEUTRAL.png
+|   |   |       
+|   |   +---ISABELLA GONZALEZ
+|   |   |       ISABELLA GONZALEZ_DEFENSIVE.png
+|   |   |       ISABELLA GONZALEZ_HAPPY.png
+|   |   |       ISABELLA GONZALEZ_hover state.png
+|   |   |       ISABELLA GONZALEZ_NERVOUS.png
+|   |   |       ISABELLA GONZALEZ_NEUTRAL.png
+|   |   |       
+|   |   +---JAMES DONOVAN
+|   |   |       JAMES DONOVAN_DEFENSIVE.png
+|   |   |       JAMES DONOVAN_DISTRESSED.png
+|   |   |       JAMES DONOVAN_hover state.png
+|   |   |       JAMES DONOVAN_NEUTRAL.png
+|   |   |       JAMES DONOVAN_RAISED BROW.png
+|   |   |       
+|   |   +---KATHERYNE EDDINSON
+|   |   |       KATHERYNE EDDINSON_DEFENSIVE.png
+|   |   |       KATHERYNE EDDINSON_DISTRESSED.png
+|   |   |       KATHERYNE EDDINSON_HAPPY.png
+|   |   |       KATHERYNE EDDINSON_hover state.png
+|   |   |       KATHERYNE EDDINSON_NERVOUS.png
+|   |   |       KATHERYNE EDDINSON_NEUTRAL.png
+|   |   |       
+|   |   +---KIERAN OAKLEY
+|   |   |       KIERAN OAKLEY_DISTRESSED.png
+|   |   |       KIERAN OAKLEY_EMBARASSED.png
+|   |   |       KIERAN OAKLEY_hover state.png
+|   |   |       KIERAN OAKLEY_NERVOUS.png
+|   |   |       KIERAN OAKLEY_NEUTRAL.png
+|   |   |       KIERAN OAKLEY_PASSIONATE.png
+|   |   |       
+|   |   +---LUTHER FLINT
+|   |   |       LUTHER FLINT_DEFENSIVE.png
+|   |   |       LUTHER FLINT_DISTRESSED.png
+|   |   |       LUTHER FLINT_hover state.png
+|   |   |       LUTHER FLINT_NERVOUS.png
+|   |   |       LUTHER FLINT_NEUTRAL.png
+|   |   |       LUTHER FLINT_SMILING.png
+|   |   |       
+|   |   +---MARISSA WELLS
+|   |   |       MARISSA WELLS_DEFENSIVE.png
+|   |   |       MARISSA WELLS_DISTRESSED.png
+|   |   |       MARISSA WELLS_HAPPY.png
+|   |   |       MARISSA WELLS_hover state.png
+|   |   |       MARISSA WELLS_NERVOUS.png
+|   |   |       MARISSA WELLS_NEUTRAL.png
+|   |   |       
+|   |   +---MICHAEL CRAWFORD
+|   |   |       MICHAEL CRAWFORD_DEFENSIVE.png
+|   |   |       MICHAEL CRAWFORD_DISTRESSED.png
+|   |   |       MICHAEL CRAWFORD_hover state.png
+|   |   |       MICHAEL CRAWFORD_NERVOUS.png
+|   |   |       MICHAEL CRAWFORD_NEUTRAL.png
+|   |   |       MICHAEL CRAWFORD_SMILING.png
+|   |   |       
+|   |   +---ROWAN LINFIELD
+|   |   |       ROWAN LINFIELD_DEFENSIVE.png
+|   |   |       ROWAN LINFIELD_HAPPY.png
+|   |   |       ROWAN LINFIELD_hover state.png
+|   |   |       ROWAN LINFIELD_NERVOUS.png
+|   |   |       ROWAN LINFIELD_NEUTRAL.png
+|   |   |       ROWAN LINFIELD_STRESSED.png
+|   |   |       
+|   |   +---SAMANTHA MOREHOUSE
+|   |   |       SAMANTHA MOREHOUSE_DEFENSIVE.png
+|   |   |       SAMANTHA MOREHOUSE_DISTRESSED.png
+|   |   |       SAMANTHA MOREHOUSE_hover state.png
+|   |   |       SAMANTHA MOREHOUSE_NERVOUS.png
+|   |   |       SAMANTHA MOREHOUSE_NEUTRAL.png
+|   |   |       SAMANTHA MOREHOUSE_SMILING.png
+|   |   |       
+|   |   +---WILLIAM PIERCE
+|   |   |       WILLIAM PIERCE_DEFENSIVE.png
+|   |   |       WILLIAM PIERCE_DISTRESSED.png
+|   |   |       WILLIAM PIERCE_hover state.png
+|   |   |       WILLIAM PIERCE_NERVOUS.png
+|   |   |       WILLIAM PIERCE_NEUTRAL.png
+|   |   |       WILLIAM PIERCE_SMILING.png
+|   |   |       
+|   |   \---ZAIN MANZUR
+|   |           FAKE_ZAIN MANZUR_DISTRESSED.png
+|   |           FAKE_ZAIN MANZUR_hover state.png
+|   |           FAKE_ZAIN MANZUR_NERVOUS.png
+|   |           FAKE_ZAIN MANZUR_NEUTRAL.png
+|   |           FAKE_ZAIN MANZUR_SMILING.png
+|   |           ZAIN MANZUR_DEFENSIVE.png
+|   |           ZAIN MANZUR_hover state.png
+|   |           ZAIN MANZUR_NERVOUS.png
+|   |           ZAIN MANZUR_NEUTRAL.png
+|   |           ZAIN MANZUR_SMILING.png
+|   |           
+|   \---fonts
+|           IBMPlexSans_Condensed-Bold.ttf
+|           IBMPlexSans_Condensed-Regular.ttf
+|           Inter_24pt-Bold.ttf
+|           Inter_24pt-Regular.ttf
+|           Quartus-Regular.otf
+|           Quartus-Regular.ttf
+|           veteran typewriter.ttf
+|           
++---css
+|       styles.css
+|       
+\---js
+        main.js
+        
